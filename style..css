@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "Circular";
+    src: url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.eot");
+    src: url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.woff") format("woff"), url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.svg#Circular Std Bold") format("svg");
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: "Circular";
+    src: url("//db.onlinewebfonts.com/t/9475d6a0b79c164f9f605673714e75d9.eot");
+    src: url("//db.onlinewebfonts.com/t/9475d6a0b79c164f9f605673714e75d9.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/9475d6a0b79c164f9f605673714e75d9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/9475d6a0b79c164f9f605673714e75d9.woff") format("woff"), url("//db.onlinewebfonts.com/t/9475d6a0b79c164f9f605673714e75d9.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/9475d6a0b79c164f9f605673714e75d9.svg#Circular Std Medium") format("svg");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Circular";
+    src: url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.eot");
+    src: url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.woff") format("woff"), url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.svg#Circular Std Book") format("svg");
+    font-weight: normal;
+}
+
+html {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Circular;
+    font-weight: bold;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    margin: 0;
+}
+
+a {
+    text-decoration: dashed;
+    color: black;
+}
+
+.wrapper {
+    margin: 51px 52px 64px 0;
+    display: flex;
+    flex-direction: row;
+    background: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    height: calc(100% - 64px - 51px);
+    background-color: lightgray;
+}
+
+.header {
+    width: 100%;
+    height: 24px;
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: crimson;
+}
+
+.headerItems {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.headerItems img {
+    width: 20px;
+    height: 19px;
+}
+
+.navTab {
+    width: 25%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* temp */
+    margin-right: 37px;
+    background-color: lightgreen;
+    height: 100%;
+    /* temp */
+}
+
+.navItems {
+    list-style: none;
+    color: black;
+}
+
+.searchBox {
+    display: flex;
+    height: 24px;
+    align-items: center;
+}
+
+.searchBox input {
+    padding: 0px;
+    margin-left: 20px;
+    height: 19px;
+    width: 100px;
+    border: 0;
+    font-family: Circular;
+    font-weight: normal;
+    font-size: 17px;
+}
