@@ -113,7 +113,7 @@ a {
 }
 
 .logo{
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -125,6 +125,17 @@ a {
 {
     height: 1.4rem;
     width: 1.4rem;
+}
+
+.appear-btn{
+    display: none;
+    /* background-color: aquamarine; */
+    margin-left: 1rem;
+}
+
+.appear-btn img{
+    width: 1.4rem;
+    height: 1.4rem;
 }
 
 .navTab ul {
@@ -156,14 +167,26 @@ a {
     margin-left: 3.625rem;
 }
 
+#help{
+    font-size: 0.8rem;
+}
+
 #help a{
-    margin-left: 2.031rem;
+    margin-left: 2rem;
+}
+
+#help img{
+    width: 1rem;
 }
 
 .searchBox {
     display: flex;
     height: 1.5rem;
     align-items: center;
+}
+
+.searchBox img{
+    width: 1rem;
 }
 
 .searchBox input {
