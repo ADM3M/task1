@@ -14,3 +14,10 @@ btn_appear.addEventListener('click', function() {
     collapsed_nav.classList.add('hide');
     nav_block.classList.remove('hide');
 })
+
+const links = document.getElementsByTagName('a');
+
+for (let i=0; i<links.length; i++)
+{
+    links[i].setAttribute('href', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+}
