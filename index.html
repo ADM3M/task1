@@ -9,14 +9,14 @@
 
 <body>
     <div class="wrapper">
-        <div class="appear-btn" id="btn-appear">
-            <img src="icons/menu-button.png" alt="">
+        <div class="appear-btn hide" id="collapsed-nav-block" >
+            <img id="btn-appear" src="icons/menu-button.png" alt="">
         </div>
-        <nav class="navTab">
+        <nav class="navTab" id="nav-block">
             <div class="mainTabContent">
                 <div class="logo">
                     <img src="icons/Logo.svg" class="navItem" alt="">
-                    <img src="icons/menu-button.png" class="hide-btn" alt="">
+                    <img src="icons/menu-button.png" id="btn-hide" class="hide-btn" alt="">
                 </div>
                 <h2 class="navItem">Explore</h2>
                 <ul>
@@ -69,6 +69,7 @@
             </main>
         </div>
     </div>
+    <script src="home.js"></script>
 </body>
 
 </html>
